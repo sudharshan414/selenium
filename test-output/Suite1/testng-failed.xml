@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite1]">
+  <test parallel="none" name="Regression1(failed)">
+    <classes>
+      <class name="com.Hrms.TestScripts.TC003">
+        <methods>
+          <include name="tc003"/>
+        </methods>
+      </class> <!-- com.Hrms.TestScripts.TC003 -->
+      <class name="com.Hrms.TestScripts.TC001">
+        <methods>
+          <include name="tc001"/>
+        </methods>
+      </class> <!-- com.Hrms.TestScripts.TC001 -->
+      <class name="com.Hrms.TestScripts.TC004">
+        <methods>
+          <include name="tc004"/>
+        </methods>
+      </class> <!-- com.Hrms.TestScripts.TC004 -->
+      <class name="com.Hrms.TestScripts.TC002">
+        <methods>
+          <include name="tc002"/>
+        </methods>
+      </class> <!-- com.Hrms.TestScripts.TC002 -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
